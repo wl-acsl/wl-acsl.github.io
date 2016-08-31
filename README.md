@@ -1,2 +1,2 @@
 # wl-acsl.github.io
-Github Pages for wl-acsl
+Github Pages for West Side's CAT club, built with Jekyll
