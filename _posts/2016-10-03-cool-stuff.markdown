@@ -19,7 +19,13 @@ From y'all's own Microsoft computey tooteys, you can use [MobaXTerm](http://moba
 ### macOS / Linux
 Open __Terminal__ and type in:
 
+    ssh yourusername@ssh.wlcat.tech
+
+    # if the above doesn't work, try:
     ssh yourusername@104.131.118.86
+
+    # for troubleshooting, if you know what to do:
+    telnet 104.131.118.86 22
 
 and hit ENTER. If it asks you to verify an RSA fingerprint, do it, then type in your password, and you're in!
 
@@ -29,7 +35,7 @@ For the basic of using a command-line shell, [here's a good LifeHacker primer](h
   
 1. Open `mobaXterm` from `Student Commons\Thompson\ACSL\` folder or whereever else you downloaded it into
 2. `cortex` into the hostname, then your __school username__ for the username
-3. Once you're in with your __school password__, type in the command above, and you're in!
+3. Once you're in with your __school password__, type in the command above in the _macOS / Linux_ section, and you're in!
 
 For editing text files, I'd recommend `nano` as a nice beginner editor. Then upgrade to `vim`. (Don't listen to Sam telling you to use `emacs`. Emacs is for bad people who have no respect for the right way to use UNIX.)
 
