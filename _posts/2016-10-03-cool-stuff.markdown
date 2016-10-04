@@ -37,7 +37,7 @@ For the basic of using a command-line shell, [here's a good LifeHacker primer](h
 2. `cortex` into the hostname, then your __school username__ for the username
 3. Once you're in with your __school password__, type in the command above in the _macOS / Linux_ section, and you're in!
 
-For editing text files, I'd recommend `nano` as a nice beginner editor. Then upgrade to `vim`. (Don't listen to Sam telling you to use `emacs`. Emacs is for bad people who have no respect for the right way to use UNIX.)
+For editing text files, I'd recommend `nano` as a nice beginner editor. Then upgrade to `vim` or `emacs`. Both are nice options, and between the exec board members we use all three. Both Vim and Emacs can be crazy powerful, and they're simple enough to start out with. 
 
 ### Final Tip
 If you have any command that you don't recall exactly how to use, do `man command-name` and it'll tell you exactly how to use that command in a nice little thingy.`
