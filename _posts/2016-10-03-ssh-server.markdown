@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CAT Club SSH Server"
+title:  "SSH Server"
 date:   2016-10-03 16:29:45 -0400
 categories: update
 ---
