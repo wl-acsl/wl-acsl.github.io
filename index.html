@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/toastr.min.css" rel="stylesheet">
+		<link href="css/global.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/toastr.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/konami.min.js"></script>
+        	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+		<title>WL Cat Club</title>
+	</head>
+	<style>
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.row {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+.navbar-dark.bg-dark {
+	background-color: #000 !important;
+}
+	</style>
+	<script>
+$(function() {
+        $('[data-anchor]').click(function(){
+  		var id = $(this).attr('data-anchor');
+  		$(id).scrollTo();
+	});
+});
+function mit() {
+  color = ['red', 'green', 'blue'];
+  counter = 0;
+  setInterval(function(){
+	$('.row').css('background-color', color[counter]);
+	counter++;
+	if (counter == 3) {
+	counter = 0;
+}
+  }, 1000);
+}
+$(function () {
+$(document).on('keyup',
+        Konami.code(function() {
+            setTimeout(function(){
+               mit();
+         }, 250); 
+    })
+);
+});
+	</script>
+	<body style="overflo-x: hidden;padding-top:56px">
+		<div class="fluid-container">
+			<div class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+				<a class="navbar-brand" href="#">WL Cat Club</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-atrget="#navcollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Ur Grey</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row" style="background-color: #fff;height: 94VH">
+				<div class="col d-flex flex-column" style="justify-content: space-around; align-items: center; text-align: center;">
+					<center><h1 style="color:black;text-align:center;font-size:900%">WL Cat Club</h1></center>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
